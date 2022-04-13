@@ -1,0 +1,459 @@
+body{
+  background-color:#e8e1d7;
+  width: auto;
+  
+}
+
+main {
+  padding-top: headerHeight;
+  font-family: arial;
+  background: #e8e1d7;   
+ 
+}
+
+.header{
+  height:70px;
+  background:#ebd0ab;
+  color:rgb(69, 39, 3);
+  
+  
+  
+}
+
+.nav{
+  list-style:none;
+  float:right;
+}
+.nav li{display:inline-block;}
+.nav li a{
+  display:inline-block;
+   padding:3px 15px;
+  color:inherit;
+  text-decoration:none;
+  font-size: 20px;
+  font-weight: 500px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav li a:hover{
+  color: brown;
+  background-color: burlywood;
+}
+
+.nav li a:visited{
+  text-decoration:underline;
+  color: chocolate;
+}
+
+
+#icon3{
+ 
+  float: right;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 60px;
+}
+
+#gazou2{
+  text-align: center;
+  width: auto;
+ 
+  margin-top: 100px;
+  
+
+}
+
+.gazou{
+  text-align: center;
+
+  animation: anime3 1s ease; /* アニメーション指定 */
+ 
+  animation-fill-mode: backwards;
+}
+
+
+
+
+  
+
+
+
+/*ABOUT*/
+
+#ABOUT{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 65px;
+  text-align: center;
+  color:black;
+  margin-top: 100px;
+
+  position: relative; /* 位置指定 */
+  animation: anime3 1s ease; /* アニメーション指定 */
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+ position:  relative;        /* 位置調整 */
+    padding-top: 20px;          /* 余白指定 */
+    padding-left: 40px;         /* 余白指定 */
+    padding-bottom: 20px;       /* 余白指定 */
+
+  
+}
+
+
+
+#ABOUT:before {
+  content:  '';               /* 空白の要素を作る */
+  background-color: chocolate;  /* 背景色指定 */
+  display:  block;            /* ブロック要素にする */
+  position:  absolute;        /* 位置調整 */
+  left:  550px;                   /* 位置調整 */
+  height: 70px;               /* 高さ指定 */
+  width: 70px;                /* 幅指定 */
+  border-radius:  50%;        /* 丸くする */
+  top: 0;                     /* 位置調整 */
+  z-index:  -1;               /* 重なり調整 */
+  opacity: 0.5;
+}
+
+#solo{
+  width: 350px;
+  height: 380px;
+  border-radius: 5%;
+  margin-left: 250px;
+
+  animation: anime3 1s ease; /* アニメーション指定 */
+  animation-delay: 2.5s;
+  animation-fill-mode: backwards;
+}
+  
+
+
+.setumei{
+  margin-bottom: 20px;
+  font-size: 20px;
+
+}
+
+.hitori{
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.nihonngo{
+  font-size: 30px;
+  margin-top: 100px;
+  
+}
+
+.eigo{
+  margin-top: -20px;
+  border-bottom:dashed;
+  margin-bottom: 30px;
+}
+
+.tui{
+  display: flex;
+}
+  
+
+
+
+
+.about{
+   margin-left: 60px;
+   display: inline-block;
+   vertical-align: top;
+   width: 550px;
+    
+    margin-top: 30px;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+
+    animation: anime3 1s ease; /* アニメーション指定 */
+  animation-delay: 2.5s;
+  animation-fill-mode: backwards;
+  }
+  
+  @keyframes fade{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  
+
+
+
+
+#Twiter{
+  padding-left: 20px;
+  border-radius: 5px;
+  
+}
+
+#icon3{
+  margin-left: 300px;
+  
+  border-radius: 10px;
+  width: 60px;
+}
+
+/*SKILL*/
+
+
+#SKILL{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 65px;
+  text-align: center;
+  color: black;
+  margin-top: 100px;
+ 
+  animation: anime3 1s ease; /* アニメーション指定 */
+  animation-delay: 3.5s;
+  animation-fill-mode: backwards;
+  
+  position:  relative;        /* 位置調整 */
+  padding-top: 20px;          /* 余白指定 */
+  padding-left: 40px;         /* 余白指定 */
+  padding-bottom: 20px;       /* 余白指定 */
+
+}
+
+#SKILL:before {
+  content:  '';               /* 空白の要素を作る */
+  background-color: chocolate;  /* 背景色指定 */
+  display:  block;            /* ブロック要素にする */
+  position:  absolute;        /* 位置調整 */
+  left:  550px;                   /* 位置調整 */
+  height: 70px;               /* 高さ指定 */
+  width: 70px;                /* 幅指定 */
+  border-radius:  50%;        /* 丸くする */
+  top: 0;                     /* 位置調整 */
+  z-index:  -1;               /* 重なり調整 */
+  opacity: 0.5;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+
+  animation: anime3 1s ease; /* アニメーション指定 */
+  animation-delay: 4.5s;
+  animation-fill-mode: backwards;
+}
+
+
+
+.card:nth-child(2) {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.picture img {
+  width: 100%;
+  height: 200px;
+}
+
+.description {
+  width: 100%;
+  height: 145px;
+  padding-right: 12px;
+  padding-left: 12px;
+  box-sizing: border-box;
+ 
+}
+
+.description p {
+  font-size: 30px;
+  color:black;
+  text-align: center;
+}
+
+#sikaku{
+  width: 150px;
+  border-radius: 10px;
+  transition: all .4s;
+  }
+#sikaku:hover{
+  top:-6px;
+	box-shadow: 0 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+/*WORKS*/
+
+#WORKS{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 65px;
+  text-align: center;
+  color: black;
+  margin-top: 100px;
+
+  animation: anime3 1s ease; /* アニメーション指定 */
+  animation-delay: 6.5s;
+  animation-fill-mode: backwards;
+
+  position:  relative;        /* 位置調整 */
+  padding-top: 20px;          /* 余白指定 */
+  padding-left: 40px;         /* 余白指定 */
+  padding-bottom: 20px;       /* 余白指定 */
+
+ 
+}
+
+#WORKS:before {
+  content:  '';               /* 空白の要素を作る */
+  background-color: chocolate;  /* 背景色指定 */
+  display:  block;            /* ブロック要素にする */
+  position:  absolute;        /* 位置調整 */
+  left:  550px;                   /* 位置調整 */
+  height: 70px;               /* 高さ指定 */
+  width: 70px;                /* 幅指定 */
+  border-radius:  50%;        /* 丸くする */
+  top: 0;                     /* 位置調整 */
+  z-index:  -1;               /* 重なり調整 */
+  opacity: 0.5;
+}
+
+
+.onngaku{
+  display: flex;
+  margin-top: 100px;
+
+  animation: anime3 1s ease; /* アニメーション指定 */
+  animation-delay: 7.5s;
+  animation-fill-mode: backwards;
+}
+
+.apuri{
+  position:relative;
+	top:0;
+    padding:10px 20px;
+    
+    
+    text-decoration: none;
+    outline: none;
+    margin-left: 150px;
+    width: 450px;
+    height: 350px;
+    /*アニメーションの設定*/
+    transition: all .3s;
+}
+
+.apuri:hover{
+  top:-6px;
+	box-shadow: 0 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.oto{
+  
+  margin-left: 250px;
+ line-height: 1.5cm;
+ 
+ 
+  
+}
+
+
+.apuri2{
+  position:relative;
+	top:0;
+    padding:10px 20px;
+  
+   
+    text-decoration: none;
+    outline: none;
+    margin-left: 100px;
+    width: 450px;
+    height: 350px;
+    /*アニメーションの設定*/
+    transition: all .3s;
+}
+
+.apuri2:hover{
+  top:-6px;
+	box-shadow: 0 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.gaku{
+  
+  margin-left: 300px;
+ line-height: 1.5cm;
+
+float: right;
+ 
+ 
+}
+
+.gakusyuu{
+  
+  display: flex;
+  font-size: 25px;
+
+  animation: anime3 1s ease; /* アニメーション指定 */
+  animation-delay: 7.5s;
+  animation-fill-mode: backwards;
+}
+
+
+/*hooter*/
+.footer{
+  height:70px;
+  background:#ebd0ab;
+  color:rgb(69, 39, 3);
+ 
+}
+
+.contain p{
+  color:chocolate;
+  text-align:center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+@keyframes anime3 {
+  0% {
+    opacity: 0; /* 透明度指定 */
+    top: 30px; /* 位置指定 */
+  }
+  100% {
+    opacity: 1; /* 透明度指定 */
+    top: 0; /* 位置指定 */
+  }
+}
+
+@media screen and (max-width:600px) {
+ 
+	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+ .header{
+   width:100%
+ }
+
+ #gazou2{
+   width:100%;
+   
+ }
+
+ #solo{
+   margin-left: 250px;
+ }
+
+ .about{
+   margin-left: 250px;
+ }
+
+  #cards{
+    margin-left: 50px;
+  }
+
+  .footer{
+    width:100%
+  }
+}
