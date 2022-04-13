@@ -432,13 +432,38 @@ float: right;
 @media( max-width:600px ){
  
  
-  body{
-	  text-alien:center;
+.header{
+	width:600px;
+	height:70px;
+	}
+
+
+#gazou{
+	width:600px;
+	height:663px;
+	}
+
+.about{
+	text-alien:center;
+	}
+#cards{
+	display:flex;
+	}
+
+.onngaku{
+	display:flex;
+	}
+.gakusyuu{
+	display:flex;
+	}
+.footer{
+	width:600px;
+	height:70px;
 	}
 	
-	.gazou{
-		width:600px;
-	}
+
+	
+	
  
 
  
