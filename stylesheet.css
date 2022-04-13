@@ -429,10 +429,10 @@ float: right;
   }
 }
 
-@media screen and ( max-width:479px )
+@media screen and ( max-width:600px )
 {
   .header{
-    width:479px;
+    width:600px;
 	  
   }
  
@@ -441,20 +441,20 @@ float: right;
     
   }
  
-  #solo{
-    margin-left: 300px;
+  .hitori{
+    text-align: center;
   }
  
   .about{
-    margin-left: 300px;
+     text-align: center;
   }
  
    #cards{
-     margin-left: 250px;
+     text-align: center;
    }
  
    .footer{
-     width:100%
+     width:600px;
    }
 }
  
