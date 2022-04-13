@@ -430,9 +430,7 @@ float: right;
 }
 
 @media( max-width:600px ){
-  .header{
-    width:auto;
-  }
+ 
  
   .nav li a{
     font-size: 1.5px;
@@ -443,23 +441,8 @@ float: right;
     
   }
  
-  .hitori{
-    width: 80%;
-  }
+
  
-  .about{
-    flex-direction: column;
-    align-items: center;
-  }
- 
-   #cards{
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-   }
- 
-   .footer{
-     width:auto;
-   }
+  
 }
  
