@@ -445,6 +445,9 @@ float: right;
 
 .about{
 	text-alien:center;
+	
+       margin-left:100px;
+	
 	}
 #cards{
 	display:flex;
@@ -452,7 +455,10 @@ float: right;
 
 .onngaku{
 	display:flex;
+	width:300px;
+	height:150px;
 	}
+	
 .gakusyuu{
 	display:flex;
 	}
