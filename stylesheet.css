@@ -429,11 +429,11 @@ float: right;
   }
 }
 
-@media( max-width:600px ){
+@media( max-width:586px ){
  
  
 .header{
-	width:600px;
+	width:586px;
 	height:70px;
 	}
 
@@ -463,7 +463,7 @@ float: right;
 	display:flex;
 	}
 .footer{
-	width:600px;
+	width:586px;
 	height:70px;
 	}
 	
