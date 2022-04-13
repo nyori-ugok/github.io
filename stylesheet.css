@@ -429,31 +429,3 @@ float: right;
   }
 }
 
-@media screen and (max-width:600px) {
- 
-	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
- .header{
-   width:100%
- }
-
- #gazou2{
-   width:100%;
-   
- }
-
- #solo{
-   margin-left: 250px;
- }
-
- .about{
-   margin-left: 250px;
- }
-
-  #cards{
-    margin-left: 50px;
-  }
-
-  .footer{
-    width:100%
-  }
-}
