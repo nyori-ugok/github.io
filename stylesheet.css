@@ -432,7 +432,8 @@ float: right;
 @media screen and ( max-width:479px )
 {
   .header{
-    width:100%
+    width:479px;
+	  
   }
  
   #gazou2{
@@ -441,15 +442,15 @@ float: right;
   }
  
   #solo{
-    margin-left: 250px;
+    margin-left: 300px;
   }
  
   .about{
-    margin-left: 250px;
+    margin-left: 300px;
   }
  
    #cards{
-     margin-left: 50px;
+     margin-left: 250px;
    }
  
    .footer{
