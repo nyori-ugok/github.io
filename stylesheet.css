@@ -431,7 +431,7 @@ float: right;
 
 @media( max-width:600px ){
   .header{
-    width:100%;
+    width:600px;
   }
  
   .nav li a{
@@ -459,7 +459,7 @@ float: right;
    }
  
    .footer{
-     width:100%;
+     width:600px
    }
 }
  
