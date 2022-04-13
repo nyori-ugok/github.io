@@ -429,32 +429,37 @@ float: right;
   }
 }
 
-@media screen and ( max-width:600px )
-{
+@media( max-width:600px ){
   .header{
-    width:600px;
-	  
+    width:100%;
   }
  
+  .nav li a{
+    font-size: 1.5px;
+    margin-right: 10px;
+  }
   #gazou2{
     width:100%;
     
   }
  
   .hitori{
-    text-align: center;
+    width: 80%;;
   }
  
   .about{
-     text-align: center;
+    flex-direction: column;
+    align-items: center;
   }
  
    #cards{
-     text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
    }
  
    .footer{
-     width:600px;
+     width:100%;
    }
 }
  
