@@ -432,14 +432,8 @@ float: right;
 @media( max-width:600px ){
  
  
-  .nav li a{
-    font-size: 1.5px;
-    margin-right: 10px;
-  }
-  #gazou2{
-    width:500px;
-    
-  }
+  body{
+	  text-alien:center;
  
 
  
