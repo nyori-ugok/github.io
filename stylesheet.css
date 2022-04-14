@@ -429,16 +429,18 @@ float: right;
   }
 }
 
-@media( max-width:586px ){
+@media( max-width:600px ){
  
  
 .header{
-	margin: 0 auto;
+	 margin: auto;
+  　　　　max-width: 800px;
 	}
 
 
 #gazou2{
-	max-width : 100vw; 
+	 margin: auto;
+  　　　　max-width: 800px;
 	}
 
 .about{
@@ -461,7 +463,8 @@ float: right;
 	display:flex;
 	}
 .footer{
-	margin: 0 auto;
+	 margin: auto;
+  　　　　max-width: 800px;
 	}
 	
 .gaku{
