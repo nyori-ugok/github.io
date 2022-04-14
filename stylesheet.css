@@ -433,12 +433,11 @@ float: right;
  
  
 .header{
-	width:586px;
-	height:70px;
+	margin: 0 auto;
 	}
 
 
-#gazou{
+#gazou2{
 	width:600px;
 	height:663px;
 	}
@@ -450,11 +449,11 @@ float: right;
 	
 	}
 #cards{
-	display:flex;
+	display:none;
 	}
 
 .onngaku{
-	display:flex;
+	display:none;
 	width:300px;
 	height:150px;
 	}
@@ -463,9 +462,13 @@ float: right;
 	display:flex;
 	}
 .footer{
-	width:586px;
-	height:70px;
+	margin: 0 auto;
 	}
+	
+.gaku{
+	float:none;
+	}
+	
 	
 
 	
